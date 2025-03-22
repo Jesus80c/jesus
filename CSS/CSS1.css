@@ -1,0 +1,111 @@
+@import url(css2.css);
+
+h1 {
+color:darkblue;
+text-align:center;
+}
+
+  
+/*selector universal*/
+
+{ font-family:arial}
+
+/*selector por etiqueta*/
+span{
+font-family: sans-serif;
+color:cadetblue;
+}
+
+/*selector ID*/
+
+/*.nombre { contenido;}*/
+
+.subrayado{text-decoration: underline;}
+
+/*SECTOR  ID 
+#NOMBRE{ CONTENIDO :}*/
+#MAYUSCULAS{text-transform:uppercase;}
+
+
+/*SECTOR  PSEUDO CLASS
+a:NOMBRE{ CONTENIDO :}*/
+a:link{ color:forestgreen;} /*link no visitado*/
+a:visited{color:bisque;}/*Link visitado*/
+a:hover{font-weight:blod; text-decoration: none;}/*cursor  sobre el link*/
+a:active{color:brown;}/*cursor  sobre el link*/
+
+
+/*sectores de  atributo*/
+
+img[title] {width:550px;
+    height: auto;} /*Todos  los  elementos con  un  atributo espe"cifico*/
+img[alt="Html2"] {width:300px;
+    height: auto;}
+
+/*font */
+
+body{font-family:arial;/* fuente  de texto*/
+    text-align: justify;/* alineación*/
+    text-indent:25px;/* aplición de  sangria*/
+    text-transform:capitalize;/* covertir el texto  en minusculas , mayuscullase,*/
+     text-decoration:line-through none;/* decoración del texto como subrayados */
+}
+
+a{
+    text-decoration: none;
+    
+}
+img{ vertical-align: middle
+    /* alineación verticcal de los elementos base line . top,middle,bbottom* sub,sup*/
+}
+h2 { letter-spacing:5px;    /*modificar el espacio entre letras *
+word-spacing: 20px;    /*  modificar el espacion entre palabras */
+
+}
+
+/*Fodo*/
+body{
+   /* background-color:darkcyan;*/
+   /* background-image: url(/imagenes/depositphotos_69779525-stock-illustration-vector-geometrical-polygon-abstract-purple.jpg);
+     background-repeat: no-repeat;
+    background-position:center right;/* relativos o absolutos*/
+     /*background-attachment: fixed; /*fijos o mover con el scroll*/ 
+    
+    
+}
+    
+    
+    /*CUADRO*/
+
+#cuadro{
+    width: 120;/*El ancho*/
+    height: 120;/*El alto*/
+    overflow: scroll;
+    background-color: floralwhite;
+    
+}
+
+#cuadro2{
+    width: 120;/*El ancho*/
+    height: 120;/*El alto*/
+    overflow: scroll;
+    background-color: floralwhite;
+     
+   /* border-width: 6px;
+    border-style:solid;
+    border-color: #39ff33;*/
+    border: 6px solid #39ff33;
+    /*padding-top: 13px;
+    padding-right: 12px;
+    padding-bottom:12px;
+    padding-left:12px;*/
+    padding: 20px 12px 23px 24px;
+     margin-top: 20px;
+     margin-right: 0px;
+     margin-left: 0px;
+     margin-bottom:20;
+    
+      ma
+ 
+
+}
